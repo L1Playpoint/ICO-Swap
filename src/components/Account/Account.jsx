@@ -53,7 +53,14 @@ function Account() {
     return (
       <>
         <div onClick={() => setIsAuthModalVisible(true)}>
-          <p style={styles.text}>Authenticate</p>
+          <p
+            style={{
+              ...styles.text,
+              cursor: "pointer",
+            }}
+          >
+            Authenticate
+          </p>
         </div>
         <Modal
           visible={isAuthModalVisible}
