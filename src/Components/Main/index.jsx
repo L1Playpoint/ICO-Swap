@@ -1,11 +1,27 @@
 import React from "react";
 import { Button } from "@mui/material";
+import "animate.css";
+
 import "./styles/style.css";
 
 export default function Main() {
   return (
     <div className="main__container">
-      <h1 className="page__header">Swap Tokens<span>_</span></h1>
+      {/** @dev absolute contents  */}
+      <div className="top__blob" />
+      <div className="bottom__blob" />
+      <div className="absoluteSlider">
+        <div>#HODL</div>
+        <div>#HODL</div>
+        <div>#HODL</div>
+      </div>
+
+      <h1 className="page__header">
+        Swap Tokens
+        <span className="animate__flash animate__slower animate__animated animate__infinite">
+          _
+        </span>
+      </h1>
 
       <div className="swapInputs">
         <div className="bnbContainer">
@@ -20,7 +36,7 @@ export default function Main() {
           <div className="currentValue">
             <p>Current value:</p>
             <p>
-              $4,813.46 <span>-1.46%</span>
+              $4,813.46 <span className="marketState">-1.46%</span>
             </p>
           </div>
           <div className="input">
@@ -30,7 +46,9 @@ export default function Main() {
           Available: 123.52 BNB
         </div>
 
-        <div className="icon"><i className="ri-arrow-left-right-line"></i></div>
+        <div className="icon">
+          <i className="ri-arrow-left-right-line" />
+        </div>
 
         <div className="pptContainer">
           <p className="label">You Receive</p>
@@ -49,7 +67,10 @@ export default function Main() {
         </div>
       </div>
 
-      <p className="gasTracker">Transaction cost: ~$2.54(0.0014BNB)</p>
+      <p className="gasTracker">
+        <i className="ri-gas-station-line" />{" "}
+        <p>Transaction cost: ~$2.54 (0.0014BNB)</p>
+      </p>
 
       <Button className="swapBtn">Swap Now</Button>
     </div>

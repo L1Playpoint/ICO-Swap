@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 5vw;
+  padding: 15px 3vw;
   color: #fff;
   font-size: 17px;
   font-weight: 500;
@@ -23,5 +23,20 @@
       object-fit: contain; }
   .navabr__container .MuiButton-root {
     color: #9361ff; }
+  .navabr__container .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #c3c3c3; }
+    .navabr__container .userInfo .MuiButton-root {
+      min-width: 0 !important;
+      padding: 0 !important; }
+    .navabr__container .userInfo canvas {
+      width: 35px !important;
+      height: 35px !important;
+      object-fit: contain;
+      background: #fff;
+      padding: 3px;
+      border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */

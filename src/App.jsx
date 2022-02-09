@@ -1,18 +1,23 @@
-import Main from "./Components/Main";
-import Navbar from "./Components/Navbar";
+import Footer from './Components/Footer'
+import Main from './Components/Main'
+import Navbar from './Components/Navbar'
 
-function App() {
+function App () {
   return (
-    <div className="App">
+    <div className='App'>
       <header>
         <Navbar />
       </header>
 
       <main>
-        <Main/>
+        <Main />
       </main>
+
+      <footer>
+        <Footer/>
+      </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
