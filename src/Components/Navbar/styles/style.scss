@@ -1,0 +1,32 @@
+.navabr__container {
+  position: fixed;
+  font-family: "Fira Code", monospace;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5vw;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  z-index: 5;
+
+  .logo {
+    display: flex;
+    gap: 10px;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    align-items: center;
+
+    img {
+      width: 40px;
+      object-fit: contain;
+    }
+  }
+
+  .MuiButton-root {
+    color: #9361ff;
+  }
+}

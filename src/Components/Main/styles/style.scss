@@ -1,0 +1,109 @@
+.main__container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8vw;
+  width: 100vw;
+
+  .page__header {
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    font-size: 3.5em;
+  }
+
+  .swapInputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+    .bnbContainer,
+    .pptContainer {
+      width: 35vw;
+      border-radius: 15px;
+      padding: 20px 30px;
+      background: #000;
+      border: 1px solid #dedede;
+
+      .tickerHolder {
+        margin: 10px 0;
+        background: rgb(42, 42, 42);
+        border-radius: 5px;
+        padding: 10px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+
+        img {
+          width: 30px;
+          object-fit: contain;
+        }
+      }
+
+      .currentValue {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .input {
+        display: flex;
+        align-items: center;
+        background: rgb(42, 42, 42);
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+        input {
+          background: transparent;
+          flex: 7;
+          border: none;
+          font-size: 17px;
+          padding: 4px 0;
+
+          &:focus {
+            border: none;
+            outline: none;
+          }
+        }
+
+        .MuiButton-root {
+          flex: 1;
+          min-width: 0 !important;
+          padding: 0;
+          color: #f1c40f;
+        }
+      }
+
+      .available {
+        margin-top: 20px;
+      }
+    }
+
+    .icon{
+        font-size: 30px;
+    }
+  }
+
+  .gasTracker {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+  }
+
+.swapBtn.MuiButton-root{
+background: #9361ff;
+width: 35vw;
+color: #fff;
+text-transform: capitalize;
+padding: 10px;
+}  
+}
