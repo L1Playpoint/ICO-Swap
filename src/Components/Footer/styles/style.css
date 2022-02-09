@@ -1,0 +1,16 @@
+.footer__container {
+  padding: 0 3vw;
+  margin-top: 80px; }
+  .footer__container ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; }
+    .footer__container ul li a {
+      text-decoration: none;
+      color: #c3c3c3;
+      font-family: "Fira Code", monospace; }
+
+/*# sourceMappingURL=style.css.map */

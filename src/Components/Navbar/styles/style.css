@@ -1,0 +1,42 @@
+.navabr__container {
+  position: fixed;
+  font-family: "Fira Code", monospace;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 3vw;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  z-index: 5; }
+  .navabr__container .logo {
+    display: flex;
+    gap: 10px;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    align-items: center; }
+    .navabr__container .logo img {
+      width: 40px;
+      object-fit: contain; }
+  .navabr__container .MuiButton-root {
+    color: #9361ff; }
+  .navabr__container .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #c3c3c3; }
+    .navabr__container .userInfo .MuiButton-root {
+      min-width: 0 !important;
+      padding: 0 !important; }
+    .navabr__container .userInfo canvas {
+      width: 35px !important;
+      height: 35px !important;
+      object-fit: contain;
+      background: #fff;
+      padding: 3px;
+      border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
